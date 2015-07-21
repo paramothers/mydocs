@@ -7,6 +7,42 @@
  4. in 1997 javaScript become default programming language for browser
  5. in  2000 Google released AJAX when Gmail and Google map release.
 
-**AJAX technology only transfered Web Site to Web Application**
-Thisis test...
+**In 2000, the SHIFT, AJAX technology only transfered WebSite to Web Application**
+
+    
+ 6. JQuery and Prototype framework got released
+ 7. In 2008 Google's V8 JavaScript engine released
  
+** V8 engin's JIT ( Just In Time ) compiler**
+ 
+ 8. in 2009 Node.js enables, javascript run on server and database ( like MongoDB)
+ 9. AngularJS enables, make use of power of latest browser.
+ 
+**Single language for all layer of programming**
+
+*From best JAVA deverloper to JavaScript Developer*
+
+#MEAN
+ 
+  1. AngularJS as Front end framework
+  2. MongoDB as DB
+  3. Express as Web framework
+  4. Node.js as server platform
+
+###Modern web developement splited as 
+ 
+  1. DB
+  2. Server
+  3. Client Logic
+  4. Client UI
+
+##JavaScript
+ it is **interpreted** computer lanaguage. First, it has been implemented in **Netscape Navigator** for handling client side logic.
+
+##Node.JS
+  It is a product came out from V8-engine-open-sourced-from-google.
+  **v8 - engine fit for Non-Blocking I/O execution**
+#### v8 engine based database is MongoDB, released in 2009.
+
+##AngularJS
+  it is bridge cap between JavaScript and HTML. Two way data-binding, DI and MVC based.

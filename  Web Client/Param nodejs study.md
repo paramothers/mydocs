@@ -37,15 +37,23 @@
   4. Client UI
 
 ##JavaScript
- it is **interpreted** computer lanaguage. First, it has been implemented in **Netscape Navigator** for handling client side logic.
+ it is **interpreted** computer lanaguage. First, it has been implemented in **Netscape Navigator** for handling client side logic.<br />  
+ Node.js uses event driven faclity of JavaScript for Non-blocking <br />   
+ Usually a event associated with a function.<br />  
+ Browser usuall deal with user's event  but Node.js deal with vairous event from different sourced <br />  
+ **Event-loop is single threaded excuction. it is seperate from main thread. that Event-loop thread run infintly**
+ 
 
 ##Node.JS
 
-  It is implemented in C language.<br />   
+  It is implemented in C language with, wrapper for v8.<br />   
   It is a product came out from V8-engine-open-sourced-from-google.<br />   
   The current version i used is 0.10.35<br />   
-  **v8 - engine fit for Non-Blocking I/O execution**<br />   
   it allow two-way communication between browser and server<br />   
+  V8 - engine built for client side programming<br />  
+  But, Node.js extend v8 capabiltiy to server side programming<br />  
+  
+  **v8 - engine fit for Non-Blocking Socket I/O **<br />   
 #### v8 engine based database is MongoDB, released in 2009.
 
 ##NPM 

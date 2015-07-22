@@ -40,9 +40,31 @@
  it is **interpreted** computer lanaguage. First, it has been implemented in **Netscape Navigator** for handling client side logic.
 
 ##Node.JS
+  It is implemented in C language.
   It is a product came out from V8-engine-open-sourced-from-google.
+  The current version i used is 0.10.35
   **v8 - engine fit for Non-Blocking I/O execution**
+  it allow two-way communication between browser and server
 #### v8 engine based database is MongoDB, released in 2009.
 
-##AngularJS
-  it is bridge cap between JavaScript and HTML. Two way data-binding, DI and MVC based.
+##NPM 
+
+ node package manager. it has local and global mode.
+ When a package itself depend others, those are also resolved automatically like Maven.
+ 
+ **package.json** is configuration file for npm, which is placed in root of a project. This file can be  created automatically by *NPM Init*
+##NPM commands
+
+####setup####
+ 1. npm init - to create sample package.json file
+ 
+####Install####
+
+ 2. npm install - if we run from root of a project, it will install all the dependency specified in package.json file
+ 3. npm install `<package>` it will install spedified package in project specific `node_modules` folder.
+ 4. npm install `<package>@ <version>`
+ 
+####update 
+
+ 5. npm udpate
+ 6. 

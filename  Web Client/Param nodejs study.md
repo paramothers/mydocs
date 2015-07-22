@@ -41,11 +41,11 @@
 
 ##Node.JS
 
-  It is implemented in C language.
-  It is a product came out from V8-engine-open-sourced-from-google.
-  The current version i used is 0.10.35
-  **v8 - engine fit for Non-Blocking I/O execution**
-  it allow two-way communication between browser and server
+  It is implemented in C language.<br />   
+  It is a product came out from V8-engine-open-sourced-from-google.<br />   
+  The current version i used is 0.10.35<br />   
+  **v8 - engine fit for Non-Blocking I/O execution**<br />   
+  it allow two-way communication between browser and server<br />   
 #### v8 engine based database is MongoDB, released in 2009.
 
 ##NPM 

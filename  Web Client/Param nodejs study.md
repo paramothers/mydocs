@@ -29,22 +29,27 @@
   3. Express as Web framework
   4. Node.js as server platform
 
-###Modern web developement splited as 
+###Modern web developement splited as below layers
  
   1. DB
   2. Server
   3. Client Logic
   4. Client UI
+  
+##How Node.js become effective platform
 
-##JavaScript
- it is **interpreted** computer lanaguage. First, it has been implemented in **Netscape Navigator** for handling client side logic.<br />  
- Node.js uses event driven faclity of JavaScript for Non-blocking <br />
- Closure of JavaScript, helped  Node.js to run asychronously<br />  
- **Closure is not only function, but also a environment in which it was created**
- Usually a event associated with a function.<br />  
- Browser usuall deal with user's event  but Node.js deal with vairous event from different sourced <br />  
- **Event-loop is single threaded excuction. it is seperate from main thread. that Event-loop thread run infintly**
- 
+1. JavaScript's  Event-Deriven Programming
+2. JavaScript's  Closure Object facility
+3. Isolated JavaScript Module definition ( thanks to CommonJS )
+  
+
+##CommonJS
+
+1. it introduce require() method - used to load module into our application
+2. Exports javascript objects - it is inside of module itself and expose what code are visible to outside of module.
+3. Module javascript objects - it is metadata about module and also has pointer to Exports object. 
+4. Without Module concept, Node.js might have more complex 
+**Every Node.js module is a implementation of CommonJS Specification**
 
 ##Node.JS
 
@@ -57,7 +62,8 @@
   
   **v8 - engine fit for Non-Blocking Socket I/O **<br />   
 #### v8 engine based database is MongoDB, released in 2009.
-
+###Connect module has been developed by Sencha (EXTJS company )
+**Connect - is one of the middleware module**
 ##NPM 
 
  node package manager. it has local and global mode.

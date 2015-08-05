@@ -64,6 +64,10 @@
 #### v8 engine based database is MongoDB, released in 2009.
 ###Connect module has been developed by Sencha (EXTJS company )
 **Connect - is one of the middleware module**
+**Express - it is web application framework built on top of Connect**
+
+
+
 ##NPM 
 
  node package manager. it has local and global mode.

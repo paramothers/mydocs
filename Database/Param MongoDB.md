@@ -35,7 +35,7 @@
 
 
 | S.No | command | description |
-| :----: | :----: |
+| :----: | :----: | ---- |
 | 1 | db.collection_Name.find() | it show all the documents ( records ) in specified collections(table) |
 | 2 | show dbs | it display all the available DB |
 | 3 | show collections | it display all available collections( tables ) in current db |

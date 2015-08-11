@@ -15,6 +15,7 @@
 **MongoDB - is document storage DB**
 **Dynamic Query Language**
 
+*MongoDB is schema less DB, Mongoose Module add schema facility to MongoDB*
 *it store value as Binary JSON BSON*
 
  ```
@@ -39,3 +40,6 @@
 | 1 | db.collection_Name.find() | it show all the documents ( records ) in specified collections(table) |
 | 2 | show dbs | it display all the available DB |
 | 3 | show collections | it display all available collections( tables ) in current db |
+
+## Mongoose is a module which connect Node.js and mongoDB
+## Nongoose is a Node.js module

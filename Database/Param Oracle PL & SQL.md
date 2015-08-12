@@ -15,6 +15,11 @@ table {
 }
   </style>
   
+  <script type="text/javascript">
+  alert("Hello! I am an alert box!!");
+   
+  </script>
+  
 
 |   |  |  |  | 
 |  ----| ----| ----| ----| 
@@ -109,8 +114,8 @@ table {
 |   SUBSCRIPT_OUTSIDE_LIMIT |  used in varray and nested table |  |  |  |  |  |   
 |   VALUE_ERROR |  |  |  |  |  |  |   
 |   |  |  |  |  |  |  |   
-|   ``` **composite data type** |  **is Object Type** |  **is available for SQL** |  **is available for PL-SQL** |  **fixed Size** |  **can use Object or record** |  **remove element** |   
+|   **composite data type** |  **is Object Type** |  **is available for SQL** |  **is available for PL-SQL** |  **fixed Size** |  **can use Object or record** |  **remove element** |   
 |   **Record** |  no |  no |  yes |  N/A |  N/A |  N/A |   
 |   **Varray** |  yes |  yes |  yes |  yes |  yes |  No |   
 |   **Nested Table** |  yes |  yes |  yes |  no |  yes |  Yes |   
-|  ``` **associated Array** |  no |  no |  yes |  no |  yes |  Yes |  
+|   **associated Array** |  no |  no |  yes |  no |  yes |  Yes |  
